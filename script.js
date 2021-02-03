@@ -1,5 +1,5 @@
 function handleActivity() {
-  fetch(`http://www.boredapi.com/api/activity`)
+  fetch(`https://www.boredapi.com/api/activity`)
     .then((res) => res.json())
     .then((data) => localStorage.setItem("activity", JSON.stringify(data)))
     .catch((err) => console.log(err));
