@@ -24,5 +24,5 @@ function learnLink(link) {
   }
 }
 
-handleActivity(); // <-- default call for refresh to activity show
+// handleActivity(); // <-- default call for refresh to activity show
 document.getElementById("nextActivity").addEventListener("click", handleActivity);
